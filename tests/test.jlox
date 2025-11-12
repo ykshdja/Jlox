@@ -1,0 +1,28 @@
+var a = 10;  
+var b = 5;  
+print "Sum:"; print a + b;  
+print "Product:"; print a * b;  
+
+var name = "from JLox";  
+print "Hello, I'm Ahmed Faraj"; print name;  
+
+var x = 3;  
+if (x > 5) print "Big";  
+else print "Small";  
+
+var i = 0;  
+while (i < 5) { print i; i = i + 1; }  
+
+for (var j = 1; j <= 10; j = j + 1) print j;  
+
+fun greet(who) { print "Hi"; print who; }  
+greet("World");  
+
+fun square(n) { return n * n; }  
+print "4^2 ="; print square(4);  
+
+fun count(n) {  
+    var i = 1;  
+    while (i <= n) { print i; i = i + 1; }  
+}  
+count(5);
