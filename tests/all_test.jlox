@@ -17,7 +17,7 @@ print "------------------------------";
 // ============================
 // Arithmetic & String Operations
 // ============================
-print "Ahmed Faraj Stats:";
+print "Stats:";
 print "------------------------------";
 var iq = 70 * 2;
 var atk = 100 + 15;
@@ -113,7 +113,7 @@ print "------------------------------";
 fun sayHi(first, last) {
    print "Hi, " + first + " " + last + "!";
 }
-sayHi("Ahmed", "Faraj");
+sayHi("Yash", "Khanduja");
 
 print "==============================";
 
@@ -165,3 +165,4 @@ fun scope(a) {
 scope(5); // Expected: "local"
 
 print "==============================";
+
